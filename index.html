@@ -1,1 +1,157 @@
-<!DOCTYPE html><html lang='ja'><head><meta charset='UTF-8'><title>TERASOL</title></head><body><h1>TERASOL 商品一覧</h1></body></html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TERASOL 商品一覧</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans JP', sans-serif;
+      background: #fdfaf6;
+      color: #333;
+    }
+    header {
+      background: #fff3dc;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1rem;
+      color: #777;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 1rem;
+    }
+    .card-body h3 {
+      margin: 0 0 0.5rem;
+    }
+    .price {
+      color: #b86b00;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+      margin: 3rem 0 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TERASOL</h1>
+    <p>「本当は、光るはずだった。」を照らすプロダクトたち</p>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+      <a href="tomoshibi.html" class="card">
+        <img src="https://i.imgur.com/rXNDsmI.png" alt="TOMOSHIBI Candle" />
+        <div class="card-body">
+          <h3>灯 -TOMOSHIBI- キャンドル</h3>
+          <p class="price">¥3,300（税込）</p>
+        </div>
+      </a>
+      <a href="mirai.html" class="card">
+        <img src="https://i.imgur.com/htR8ejW.png" alt="Mirai Mug" />
+        <div class="card-body">
+          <h3>未来 -Mirai- マグカップ</h3>
+          <p class="price">¥2,500（税込）</p>
+        </div>
+      </a>
+      <a href="shizuku.html" class="card">
+        <img src="https://i.imgur.com/6f1s3gD.png" alt="Shizuku Notebook" />
+        <div class="card-body">
+          <h3>雫 -Shizuku- ノート</h3>
+          <p class="price">¥950（税込）</p>
+        </div>
+      </a>
+      <a href="hikari.html" class="card">
+        <img src="https://i.imgur.com/yfKdMfH.png" alt="Hikari Lamp" />
+        <div class="card-body">
+          <h3>光 -Hikari- ランプ</h3>
+          <p class="price">¥8,000（税込）</p>
+        </div>
+      </a>
+      <a href="tsubomi.html" class="card">
+        <img src="https://i.imgur.com/UtY9KeV.png" alt="Tsubomi Perfume" />
+        <div class="card-body">
+          <h3>蕾 -Tsubomi- 香水</h3>
+          <p class="price">¥6,500（税込）</p>
+        </div>
+      </a>
+      <a href="yoru.html" class="card">
+        <img src="https://i.imgur.com/xIFpSzn.png" alt="Yoru Blanket" />
+        <div class="card-body">
+          <h3>夜 -Yoru- ブランケット</h3>
+          <p class="price">¥7,800（税込）</p>
+        </div>
+      </a>
+      <a href="sora.html" class="card">
+        <img src="https://i.imgur.com/MAlIHwY.png" alt="Sora Art Print" />
+        <div class="card-body">
+          <h3>空 -Sora- アートプリント</h3>
+          <p class="price">¥4,500（税込）</p>
+        </div>
+      </a>
+      <a href="hane.html" class="card">
+        <img src="https://i.imgur.com/MAlIHwY.png" alt="Hane Earrings" />
+        <div class="card-body">
+          <h3>羽 -Hane- ピアス</h3>
+          <p class="price">¥3,800（税込）</p>
+        </div>
+      </a>
+      <a href="kaze.html" class="card">
+        <img src="https://i.imgur.com/xIFpSzn.png" alt="Kaze Hand Fan" />
+        <div class="card-body">
+          <h3>風 -Kaze- ハンドファン</h3>
+          <p class="price">¥1,200（税込）</p>
+        </div>
+      </a>
+      <a href="yume.html" class="card">
+        <img src="https://i.imgur.com/UtY9KeV.png" alt="Yume Herb Tea" />
+        <div class="card-body">
+          <h3>夢 -Yume- ハーブティー</h3>
+          <p class="price">¥1,600（税込）</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 TERASOL. All rights reserved.
+  </footer>
+</body>
+</html>
